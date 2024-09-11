@@ -1,17 +1,20 @@
 # desafio_tecnico
 ## 1.1
 Primeiramente:
+```bash
 git pull origin main
 
 git checkout main
 
 git merge feat/calculate-total-add-discount
+```
 
 Nesse momento será dado a mensagem de erro de conflito
 
 particularmente, como uso visual code aparece uma opção para que possa resolver no conflict editor
-então uso essa ferramenta, com isso consigo observar o que deve ser mudado e deixo a tarefa que meu companheiro estava fazendo, e completo a minha
+então uso essa ferramenta, com isso consigo observar o que deve ser mudado e deixo a tarefa que meu companheiro estava fazendo, e completo a minha.
 
+```bash
 git commit -m "merge foi feito"
 
 git push
@@ -23,15 +26,21 @@ git merge main
 git commit -m "merge feito com a main"
 
 git push
+```
 
 ## 1.2
+```bash
 chmod +x logging.sh
-
+```
 para somente executar e colocar em um arquivo de saída
+```bash
 ./logging.sh > output.log 2>&1
+```
 
 para separar:
+```bash
 ./logging.sh > stdout.log 2> stderr.log
+```
 
 ## 1.3
 
@@ -43,11 +52,11 @@ chmod +x kill_process.sh
 ./kill_process.sh binary_name
 
 ## 2.1
-## 2.1.1
+### 2.1.1
 O fibonacci é bem conhecido fácil de fazer por isso a explicação do código "fibonacci.py" será trivial.
 O fibonacci com custo O(1) em memória é valido explicar. No código "fibonacciO1.py" as variáveis serão redeclaradas a cada loop sendo elas sempre vet[i-1] e vet[i-2].
 
-## 2.1.2
+### 2.1.2
 
 O problema de fibonacci no custo O(1) em tempo tem a necessidade do uso da formula de Binet que aproxima o número de fibonacci, conseguindo chegar ao N-esímo número.
 ![alt text](image.png)
