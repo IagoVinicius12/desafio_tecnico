@@ -97,7 +97,8 @@ const ItemsCard: React.FC<ItemsCardProps> = ({ items }) => {
     </div>
   );
 }
-export default ItemsCard```
+export default ItemsCard
+```
 
 
 ## 3.2
@@ -129,7 +130,8 @@ export default function ItemsList({ items }: ItemsListProps) {
       ))}
     </div>
   );
-}```
+}
+```
 
 ## 4.1
 https://chatgpt.com/share/212034c8-4f9b-4d5c-b43b-111f4c391bcf
