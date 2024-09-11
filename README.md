@@ -67,7 +67,8 @@ deve-se passar o if para cima da declaração do useState, e o problema estará 
 Os hooks devem ser chamados na mesma ordem para que o react consiga associar de forma correta todos os estados e efeitos. Caso a ordem mude podem ser gerados bugs.
 Isso também facilita o debug
 
-```import React, { useState } from 'react';
+```tsx
+import React, { useState } from 'react';
 
 interface Item {
   name: string;
@@ -107,7 +108,8 @@ O detalhe que está faltando no código é a key única para cada item da lista
 Para resolver:
 COlocar o campo id na interface item e usar o id como key para mapear a lista
 
-```import React from 'react';
+```tsx
+import React from 'react';
 
 interface Item {
   id: number;
