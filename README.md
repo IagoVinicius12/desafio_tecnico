@@ -44,7 +44,7 @@ para separar:
 
 ## 1.3
 
-O codigo 1.3 irá matar todos os processos.
+O codigo matando_processo.sh irá matar todos os processos.
 
 chmod +x kill_process.sh
 
