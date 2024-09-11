@@ -1,7 +1,7 @@
 # desafio_tecnico
 ## 1.1
 Primeiramente:
-```bash
+```shell
 git pull origin main
 
 git checkout main
@@ -14,7 +14,7 @@ Nesse momento será dado a mensagem de erro de conflito
 particularmente, como uso visual code aparece uma opção para que possa resolver no conflict editor
 então uso essa ferramenta, com isso consigo observar o que deve ser mudado e deixo a tarefa que meu companheiro estava fazendo, e completo a minha.
 
-```bash
+```shell
 git commit -m "merge foi feito"
 
 git push
@@ -29,16 +29,16 @@ git push
 ```
 
 ## 1.2
-```bash
+```shell
 chmod +x logging.sh
 ```
 para somente executar e colocar em um arquivo de saída
-```bash
+```shell
 ./logging.sh > output.log 2>&1
 ```
 
 para separar:
-```bash
+```shell
 ./logging.sh > stdout.log 2> stderr.log
 ```
 
