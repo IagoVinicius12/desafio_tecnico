@@ -59,7 +59,9 @@ O fibonacci com custo O(1) em memória é valido explicar. No código "fibonacci
 ### 2.1.2
 
 O problema de fibonacci no custo O(1) em tempo tem a necessidade do uso da formula de Binet que aproxima o número de fibonacci, conseguindo chegar ao N-esímo número.
+
 ![alt text](image.png)
+
 O problema de fibonacci aproximado deve ser feito de forma que haja um vetor pré-computado salvo e pronto para ser acessado, então assim será somente o custo de acesso.
 
 ## 2.2
